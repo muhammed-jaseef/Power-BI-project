@@ -28,5 +28,30 @@ AccountHolderDetails: employment sector, years at residence, city, etc.<br>
 - Established a one-to-many relationship between Accounts (Dataset2) and Transactions (Dataset1) using AccountNumber.
 - Created a calendar table linking Date1 and Date2 for both tables to enable time-based analysis.
 - Built fact (Transactions) and dimension (Accounts) tables, along with calculated columns and DAX measures for KPIs and advanced analytics.
+### 🔍 Key Analyses Performed
+
+1. **Interest Rate vs Balance Correlation**  
+   Using DAX, examined whether accounts with higher interest rates also maintain higher balances.
+
+2. **Transaction Time Patterns**  
+   Analyzed transaction time vs transaction count for different transaction types
+
+3. **Risk Assessment Model (Advanced DAX)**  
+   Combined transaction time, balance, and credit score to categorize accounts into:  
+   - High Risk  
+   - Medium Risk  
+   - Low Risk
+
+4. **Unusual Transactions (Anomaly Detection)**  
+   Flagged transactions with:  
+   - Abnormally high amounts   
+   Implemented in Power Query and DAX.
+
+5. **Time-Series Analysis**  
+   Identified seasonal and monthly trends in transaction activity.  
+   Highlighted shifts in customer financial behavior over time.  
+   Created a **Quarter** column and analyzed:  
+   - Number of transaction account openings per quarter  
+   - Loan amounts taken per quarter across all years
 
 
