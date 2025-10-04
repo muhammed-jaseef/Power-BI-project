@@ -23,5 +23,10 @@ CreditScore:	Credit score of account holder.<br>
 OpeningDate:	Date when account was opened.<br>
 LoanAmount:	Loan amount associated (if applicable).<br>
 AccountHolderDetails: employment sector, years at residence, city, etc.<br>
+##⚙️ Data Modeling & Cleaning
+-Performed data cleaning by removing null values, correcting data types, and splitting the AccountHolderDetails column into separate fields such as Employment Sector, Years at Current Residence, and City of Residence.
+-Established a one-to-many relationship between Accounts (Dataset2) and Transactions (Dataset1) using AccountNumber.
+-Created a calendar table linking Date1 and Date2 for both tables to enable time-based analysis.
+-Built fact (Transactions) and dimension (Accounts) tables, along with calculated columns and DAX measures for KPIs and advanced analytics.
 
 
