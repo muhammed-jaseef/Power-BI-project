@@ -64,3 +64,17 @@ AccountHolderDetails: employment sector, years at residence, city, etc.<br>
 - Histogram showing the distribution of credit score
 - Pie chart showing transaction amount in different transaction types
 
+## 🚀Insights & Outcomes
+
+- Segmented accounts into risk groups for proactive monitoring:
+  - **65% Low Risk**, **32% Medium Risk**, **3% High Risk**.
+- Discovered patterns in transaction activity by time of day.
+- Identified anomalies indicating potential fraud or irregularities.  
+  - (No unusual transactions detected based on ±2 standard deviations of transaction amount.)
+- Found **weak correlation (-0.02)** between account balance and interest rate (essentially no correlation).
+- Observed that as the number of account openings increases, loan amounts also rise.
+- Credit score distribution is concentrated in the **400–800 range**.
+- Uncovered trends between interest rates and account balances.
+- Delivered an interactive BI solution for financial stakeholders.
+
+
