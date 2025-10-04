@@ -53,5 +53,14 @@ AccountHolderDetails: employment sector, years at residence, city, etc.<br>
    Created a **Quarter** column and analyzed:  
    - Number of transaction account openings per quarter  
    - Loan amounts taken per quarter across all years
+## 📊Banking Performance Dashboard
 
+- **KPI Cards:** Total transaction amount,  average credit score, Loan to balance ratio
+- **Interactive Filters:** Quarter, City
+- Line plot showing loan amount variation monthly
+- Donet chart showing number of transactions in different currency
+- bar chart showing customer account balances segmented by profession sector
+- bar chart showing transaction amount by account tpes
+- Histogram showing the distribution of credit score
+- Pie chart showing transaction amount in different transaction types
 
