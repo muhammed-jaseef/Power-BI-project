@@ -13,15 +13,15 @@ BranchCode:	Code of the bank branch where transaction took place.<br>
 Currency:	Currency of transaction.<br>
 TransactionTime:	Time of transaction (in hours).<br>
 ### 📑Dataset 2: BankingDataset2.xlsx (Accounts Table)
-Column	Description
-AccountNumber	Unique identifier (Primary Key).
-AccountHolder	Name of account holder.
-AccountType	Type of account (Credit, Loan, Checking).
-Balance	Current account balance.
-InterestRate	Interest rate applied to account.
-CreditScore	Credit score of account holder.
-OpeningDate	Date when account was opened.
-LoanAmount	Loan amount associated (if applicable).
-AccountHolderDetails	Demographics: employment sector, years at residence, city, etc.
+Column	Description<br>
+AccountNumber: Unique identifier (Primary Key).<br>
+AccountHolder:	Name of account holder.<br>
+AccountType:	Type of account (Credit, Loan, Checking).<br>
+Balance: Current account balance.<br>
+InterestRate:	Interest rate applied to account.<br>
+CreditScore:	Credit score of account holder.<br>
+OpeningDate:	Date when account was opened.<br>
+LoanAmount:	Loan amount associated (if applicable).<br>
+AccountHolderDetails: employment sector, years at residence, city, etc.<br>
 
 
